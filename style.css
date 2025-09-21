@@ -14,10 +14,21 @@ body {
 
 h2 {
   color: rgba(120, 160, 131, 1);
-  font-size: 35px;
+  font-size: 30px;
 }
+h3 {
+  color: rgba(120, 160, 131, 1);
+  font-size: 25px;
+  letter-spacing: 7;
+}
+h4 {
+  color: rgba(120, 160, 131, 1);
+  font-size: 20px;
+  letter-spacing: 7;
+}
+
 h6 {
-  font-size: 17px;
+  font-size: 15px;
   font-weight: normal;
 }
 
@@ -30,7 +41,8 @@ nav {
   background-color: rgba(53, 55, 75, 1);
   display: flex;
   padding: 10px 10%;
-  justify-content: space-between;
+  gap: 650px;
+  justify-content: center;
   align-items: center;
 }
 
@@ -49,12 +61,12 @@ nav ul {
 
 nav ul li {
   cursor: pointer;
-  /* letter-spacing: 12; */
 }
 
 nav ul li:hover {
   color: rgba(120, 160, 131, 1);
-  border-bottom: 1px solid rgba(120, 160, 131, 1);
+  font-weight: bold;
+  transition: 0.2s;
 }
 
 .active {
@@ -78,13 +90,22 @@ a {
   align-items: center;
   gap: 100px;
   padding: 0 20%;
+  margin-bottom: 200px;
+}
+
+.hero .hero-img {
+  width: 350px;
+}
+
+.left-hero {
+  margin-top: 70px;
 }
 
 .conect-profile {
   margin-top: 15px;
 }
 .conect-profile img {
-  width: 35px;
+  width: 25px;
   border: 2px solid rgba(120, 160, 131, 1);
   border-radius: 100%;
   padding: 7px;
@@ -98,20 +119,94 @@ a {
   gap: 10px;
   margin-top: 15px;
 }
+.btns-hero button {
+  cursor: pointer;
+  width: 140px;
+  height: 40px;
+}
 
 .btn-1 {
-  width: 175px;
-  height: 40px;
   color: white;
   background-color: rgba(120, 160, 131, 1);
   border: none;
 }
+.btn-1:hover {
+  background-color: rgba(120, 160, 131, 1);
+  transition: 0.2s;
+  font-weight: bold;
+}
+
 .btn-2 {
-  width: 175px;
-  height: 40px;
   border: 2px solid rgba(120, 160, 131, 1);
   background-color: rgba(120, 160, 131, 0);
   color: white;
 }
+.btn-2:hover {
+  background-color: rgba(120, 160, 131, 1);
+  transition: 0.2s;
+  font-weight: bold;
+}
 
 /* hero end */
+
+@media screen and (max-width: 1024px) {
+  nav {
+    gap: 380px;
+  }
+  nav .logo {
+    cursor: pointer;
+    width: 100px;
+    margin-left: -50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    gap: 300px;
+  }
+  nav .logo {
+    width: 100px;
+  }
+
+  .hero .hero-img {
+    width: 300px;
+  }
+  h2 {
+    color: rgba(120, 160, 131, 1);
+    font-size: 24px;
+  }
+  h6 {
+    font-size: 12px;
+    font-weight: normal;
+  }
+  .btns-hero button {
+    cursor: pointer;
+    width: 120px;
+    height: 35px;
+  }
+  .conect-profile img {
+    width: 20px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  nav ul li {
+    display: none;
+  }
+  nav {
+    gap: 0px;
+  }
+
+  .hero {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+  }
+  .hero .hero-img {
+    width: 250px;
+  }
+}
