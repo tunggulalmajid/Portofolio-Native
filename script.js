@@ -12,3 +12,30 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 // nav end
+
+// tech stack
+const dataImageTech = [
+  "./assets/html.png",
+  "./assets/css.png",
+  "./assets/tailwind.png",
+  "./assets/bootstrap.png",
+  "./assets/js.png",
+  "./assets/py.png",
+  "./assets/cs.png",
+  "./assets/cpp.png",
+  "./assets/pg.png",
+  "./assets/canva.png",
+  "./assets/figma.png",
+];
+document.addEventListener("DOMContentLoaded", function () {
+  const btmImg = document.querySelector(".bottom-img");
+  dataImg = dataImageTech
+    .map((data) => {
+      return `
+      <img src="${data}" alt="img-tech" />
+    `;
+    })
+    .join("");
+  btmImg.innerHTML = dataImg;
+});
+
