@@ -9,9 +9,10 @@
   <body>
     <!-- nav start -->
     <nav>
-      <a href="index.html"
-        ><img src="./assets/Almajid-icon.png" alt="" class="logo"
-      /></a>
+      <a href="index.html">
+        <!-- <img src="./assets/Almajid-icon.png" alt="" class="logo"/> -->
+        <h3>Almajid.</h3>
+      </a>
       <img
         src="./assets/menu.png"
         alt="menu"
@@ -26,7 +27,10 @@
           <a href="#about">ABOUT</a>
         </li>
         <li>
-          <a href="#hehe">PROJECTS</a>
+          <a href="#projects">PROJECTS</a>
+        </li>
+        <li>
+          <a href="#projects">CONTACT</a>
         </li>
       </ul>
     </nav>
@@ -36,7 +40,7 @@
     <section class="hero" id="home">
       <div class="left-hero">
         <h6>Hello, Im</h6>
-        <h2>Tunggul Abdul Majid</h2>
+        <h2 class="animasi-text"><span></span></h2>
         <h6>Seseorang yang senantiasa belajar untuk menjadi lebih baik</h6>
         <div class="conect-profile">
           <a href=""><img src="./assets/github.png" alt="github" /></a>
@@ -57,15 +61,13 @@
       <div class="top">
         <h3>ABOUT ME</h3>
         <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem Ipsum.
+          Saya adalah seorang Mahasiswa Program Studi Teknologi Informasi
+          Universitas Jember Angkatan 2024. Saya memiliki minat dalam bidang
+          Fullstack Web Developer dan juga Mobile Developer. Saya memiliki mimpi
+          untuk menjadi seorang developer yang handal dan saya yakin bahwa mimpi
+          itu akan terwujud nanti. Mimpi tersebut tentu tidak terwujud dengan
+          sendirinya, dengan kerja keras dan konsistensi serta semangat,
+          perlahan saya akan menggapai mimpi itu.
         </p>
       </div>
       <div class="midle-about">
@@ -73,17 +75,15 @@
           <h4>EDUCATION</h4>
           <ul>
             <li>SMAN GLENMORE - MIPA</li>
-            <li>UNIVERSITY OF JEMBER - INFORMATION TECHNOLOGY</li>
+            <li>UNIVERSITAS JEMBER - TEKNOLOGI INFORMASI</li>
           </ul>
         </div>
         <div class="right-midle">
           <h4>ORGANIZATION</h4>
           <ul>
-            <li>SATGAS SMANSAMORE (2022/2023) - HEAD CHIEF</li>
-            <li>
-              UKM LINUX AND OPEN SOURCE (2024) - PEMROGRAMAN DIVISION STAFF
-            </li>
-            <li>RYPER LAB - STAFF PRACTICE ASSISTANT</li>
+            <li>SATGAS SMANSAMORE (2022/2023) - KETUA UMUM</li>
+            <li>UKM LINUX AND OPEN SOURCE (2024) - STAFF DIVISI PEMROGRAMAN</li>
+            <li>RYPER LAB - ASISTEN PRAKTIKUM</li>
           </ul>
         </div>
       </div>
@@ -95,6 +95,66 @@
       </div>
     </section>
     <!-- About end -->
+
+    <!-- Projects Start -->
+    <section class="projects" id="projects">
+      <h3>PROJECTS</h3>
+      <div class="card-project" id="card-project"></div>
+    </section>
+    <!-- Projects End -->
+
+    <!-- contact start -->
+    <section class="contact">
+      <div class="contact-container">
+        <h3>Contact</h3>
+        <div class="form-container">
+          <form id="contact-form" class="contact-form">
+            <div>
+              <h5>Nama</h5>
+              <input
+                type="text"
+                placeholder="Masukkan Nama"
+                name="nama"
+                id="nama"
+                class="input-nama"
+                required
+              />
+            </div>
+            <div>
+              <h5>Message</h5>
+              <textarea
+                name="message"
+                id="message"
+                class="input-message"
+                placeholder="Masukkan Pesan"
+                required
+              ></textarea>
+            </div>
+            <div class="container-btn-submit">
+              <button class="btn-submit">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- contact end -->
+
+    <!-- Quotes Start -->
+    <section class="quotes">
+      <h3>QUOTES</h3>
+      <h5>
+        ` Keberhasilan bukanlah milik orang yang pintar. Keberhasilan adalah
+        milik mereka yang senantiasa berusaha. `
+      </h5>
+    </section>
+    <!-- Quotes End -->
+
+    <!-- footer start -->
+    <footer>
+      
+    </footer>
+    <!-- footer end -->
+
     <script src="script.js"></script>
   </body>
 </html>
