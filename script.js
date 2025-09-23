@@ -53,12 +53,7 @@ const dataProject = [
   {
     img: "./assets/ClonePahamify.png",
     title: "Company Profile",
-    desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, nam.
-            Lorem ipsum dolor sit amet. Lorem ipsum dolor sit, amet consectetur
-            adipisicing elit. Quam est impedit distinctio iste sit numquam
-            assumenda ratione dolore expedita, voluptas ipsam minus iure ab
-            suscipit dolor temporibus esse, quia obcaecati incidunt eaque omnis
-            facere quidem doloribus aut? Tenetur alias aperiam repellendus`,
+    desc: `Sebuah Cloning dari website pahamify dengan menggunakan html, css dengan tailwind, js dengan jquery. dibuat sebagai bahan belajar dan juga tugas dari mata kuliah pemrograman web`,
     linkRepo:
       "https://github.com/tunggulalmajid/pahamify-clone-tailwind-jquery",
     linkWEb: "https://pahamify-clone-tailwind-jquery.vercel.app/",
