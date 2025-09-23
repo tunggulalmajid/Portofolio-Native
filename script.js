@@ -122,3 +122,21 @@ document.addEventListener("DOMContentLoaded", function () {
     cardProject.innerHTML += project;
   });
 });
+
+// contact
+
+document.querySelector("#contact-form").addEventListener("submit", (e) => {
+  e.preventDefault();
+
+  const nama = document.querySelector("#nama");
+  const message = document.querySelector("#message");
+  const nomorHp = "+6283856842965";
+  const pesanKirim = `halo, perkenalkan saya ${nama.value} saya memiliki pesan yang ingin disampaikan berupa ${message.value}`;
+  const encode = encodeURI(pesanKirim);
+  const waUrl = `https://wa.me/${nomorHp}?text=${encode}`;
+
+  window.open(waUrl, "_blank");
+
+  nama.value = "";
+  message.value = "";
+});

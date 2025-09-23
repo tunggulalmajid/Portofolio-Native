@@ -39,7 +39,7 @@ button {
   border-radius: 20px;
   cursor: pointer;
 }
-a{
+a {
   cursor: pointer;
 }
 
@@ -53,6 +53,10 @@ nav {
   align-items: center;
   position: sticky;
   top: 0;
+  z-index: 100;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 0px 5px 10px black;
 }
 
 nav > a > h3 {
@@ -97,13 +101,13 @@ a {
 
 /* hero start */
 .hero {
-  margin-top: 50px;
+  margin-top: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 100px;
   padding: 0 20%;
-  margin-bottom: 200px;
+  margin-bottom: 450px;
 }
 
 .hero .hero-img {
@@ -297,7 +301,7 @@ a {
   max-width: 875px;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 100px;
+  margin-top: 200px;
 }
 
 .card-project {
@@ -359,6 +363,7 @@ a {
 .btn-card .btn-notsmall:hover {
   background-color: rgba(120, 160, 131, 1);
   font-weight: bold;
+  transform: scale(1.05);
 }
 
 .btn-card .btn-small {
@@ -374,6 +379,7 @@ a {
 .btn-card .btn-small:hover {
   font-weight: bold;
   color: black;
+  transform: scale(1.05);
 }
 
 /* projects end */
@@ -386,7 +392,7 @@ a {
   max-width: 875px;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 100px;
+  margin-top: 200px;
 }
 
 .form-container {
@@ -394,9 +400,13 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  box-shadow: 0px 0px 10px rgba(120, 160, 131, 1);
-  padding: 20px;
+  border: 1px solid rgba(120, 160, 131, 1);
+  padding: 40px;
   border-radius: 20px;
+}
+.form-container:hover {
+  transform: scale(1.01);
+  box-shadow: 10px 5px 10px rgba(120, 160, 131, 1);
 }
 
 .input-nama {
@@ -422,16 +432,18 @@ a {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-.container-btn-submit {
-  margin-left: 350px;
-}
 .btn-submit {
-  width: 150px;
+  width: 500px;
   height: 40px;
   border-radius: 10px;
   background-color: rgba(120, 160, 131, 1);
   color: white;
   border: none;
+}
+
+.btn-submit:hover {
+  transform: scale(1.01);
+  font-weight: bold;
 }
 /* contact end */
 
@@ -443,7 +455,7 @@ a {
   max-width: 875px;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 100px;
+  margin-top: 200px;
 }
 
 .quotes h5 {
@@ -453,6 +465,67 @@ a {
 }
 
 /* quotes end */
+
+/* footer start */
+footer {
+  background-color: rgba(53, 55, 75, 1);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  box-shadow: 0px -2px 10px black;
+  margin-top: 200px;
+}
+
+.footer-container {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+.left-footer .conect-profile img {
+  width: 20px;
+  margin-top: -10px;
+}
+.location {
+  display: flex;
+  gap: 2px;
+}
+
+.location img {
+  width: 30px;
+  height: 30px;
+}
+.location p {
+  max-width: 150px;
+  font-size: 12px;
+}
+
+.right-footer h5 {
+  margin-top: 10px;
+  font-size: 15px;
+  color: rgba(120, 160, 131, 1);
+}
+
+.right-footer li {
+  list-style: none;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.right-footer li:hover {
+  opacity: 70%;
+}
+
+footer > p {
+  font-weight: bold;
+  margin-top: 70px;
+  text-align: center;
+  font-size: 12px;
+}
+
+/* footer end */
 @media screen and (max-width: 1024px) {
   nav {
     gap: 250px;
@@ -463,6 +536,12 @@ a {
   }
 
   .projects {
+    max-width: 700px;
+  }
+  .contact {
+    max-width: 700px;
+  }
+  .quotes {
     max-width: 700px;
   }
 }
@@ -506,6 +585,22 @@ a {
   .projects {
     max-width: 470px;
   }
+  .contact {
+    max-width: 470px;
+  }
+  .input-nama {
+    width: 300px;
+  }
+
+  .input-message {
+    width: 300px;
+  }
+  .btn-submit {
+    width: 300px;
+  }
+  .quotes {
+    max-width: 470px;
+  }
 }
 
 @media screen and (max-width: 550px) {
@@ -539,7 +634,8 @@ a {
   }
 
   .hero {
-    margin-top: 10px;
+    margin-top: 20px;
+    margin-bottom: 150px;
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
@@ -609,5 +705,31 @@ a {
     font-weight: 600;
     border: none;
     font-size: large;
+  }
+  .contact {
+    max-width: 250px;
+  }
+  .input-nama {
+    width: 200px;
+  }
+
+  .input-message {
+    width: 200px;
+    height: 200px;
+  }
+  .btn-submit {
+    width: 200px;
+  }
+  .quotes {
+    max-width: 250px;
+  }
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .location p {
+    text-align: start;
   }
 }
