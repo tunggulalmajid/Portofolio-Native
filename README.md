@@ -4,21 +4,10 @@
 
 Ini adalah proyek website portofolio pribadi yang saya bangun dari awal untuk menampilkan proyek-proyek, keahlian, dan latar belakang saya. Proyek ini dibuat sepenuhnya menggunakan teknologi web dasar (HTML, CSS, dan JavaScript) tanpa menggunakan framework atau library eksternal.
 
-## 📸 Tampilan Website
-
-**(Disarankan untuk menambahkan screenshot atau GIF dari websitemu di sini!)**
-
-*Untuk menambahkan gambar:*
-1.  Buat screenshot websitemu.
-2.  Unggah file gambar tersebut ke dalam repository-mu (misalnya ke dalam folder `assets`).
-3.  Ganti baris di atas dengan: `![Tampilan Website](./assets/nama-screenshot.png)`
-
-![Tampilan Website](https://via.placeholder.com/800x450.png?text=Screenshot+Website+Anda)
-
 ## 🚀 Live Demo
 
 Anda bisa melihat versi live dari portofolio ini di sini:
-**[https://tunggulalmajid.github.io/Portofolio-Native/](https://tunggulalmajid.github.io/Portofolio-Native/)**
+**[https://tunggulalmajid.github.io/Portofolio-Native/](https://tunggulalmajid.my.id)**
 
 ## ✨ Fitur-Fitur
 
@@ -33,24 +22,9 @@ Anda bisa melihat versi live dari portofolio ini di sini:
 
 - **HTML5:** Digunakan untuk struktur dasar dan konten website.
 - **CSS3:** Untuk styling, layout, dan animasi.
-  - **Flexbox & Grid:** Untuk membangun layout yang responsif.
-  - **Custom Properties (Variables):** Untuk tema warna yang konsisten.
-  - **Animations & Transitions:** Untuk efek visual yang dinamis.
-- **JavaScript (ES6):** Untuk interaktivitas dan manipulasi DOM.
+  - **Flexbox :** Untuk membangun layout yang responsif.
+- **JavaScript:** Untuk interaktivitas dan manipulasi DOM.
   - **DOM Manipulation:** Untuk mengelola kelas dan event.
-  - **Intersection Observer API:** Untuk memicu animasi saat scroll.
-
-## 📂 Cara Menjalankan Secara Lokal
-
-1.  Clone repository ini:
-    ```bash
-    git clone [https://github.com/tunggulalmajid/Portofolio-Native.git](https://github.com/tunggulalmajid/Portofolio-Native.git)
-    ```
-2.  Buka folder proyek:
-    ```bash
-    cd Portofolio-Native
-    ```
-3.  Buka file `index.html` di browser favorit Anda.
 
 ## 📬 Kontak
 
