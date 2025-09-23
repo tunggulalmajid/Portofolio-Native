@@ -1,6 +1,6 @@
 # Portfolio Website - Vanilla HTML, CSS, & JavaScript
 
-[![Website](https://img.shields.io/badge/Website-Live-blue.svg)](tunggulalmajid.my.id)
+[![Website](https://img.shields.io/badge/Website-Live-blue.svg)](https://tunggulalmajid.my.id)
 
 Ini adalah proyek website portofolio pribadi yang saya bangun dari awal untuk menampilkan proyek-proyek, keahlian, dan latar belakang saya. Proyek ini dibuat sepenuhnya menggunakan teknologi web dasar (HTML, CSS, dan JavaScript) tanpa menggunakan framework atau library eksternal.
 
