@@ -13,7 +13,6 @@ Anda bisa melihat versi live dari portofolio ini di sini:
 
 - **Desain Responsif:** Tampilan yang menyesuaikan dengan berbagai ukuran layar, dari mobile hingga desktop.
 - **Animasi Teks Mengetik:** Efek mengetik dinamis pada bagian hero untuk menampilkan berbagai peran atau keahlian.
-- **Animasi Scroll:** Elemen akan muncul dengan efek *fade-in* saat pengguna menggulir halaman (menggunakan Intersection Observer API).
 - **Navigasi Sticky:** Navbar akan tetap berada di atas layar saat halaman di-scroll untuk kemudahan navigasi.
 - **Smooth Scrolling:** Perpindahan halaman yang halus saat mengklik menu pada navigasi.
 - **Formulir Kontak Fungsional:** Bagian kontak yang memungkinkan pengunjung mengirim pesan.
