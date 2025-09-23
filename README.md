@@ -7,7 +7,7 @@ Ini adalah proyek website portofolio pribadi yang saya bangun dari awal untuk me
 ## 🚀 Live Demo
 
 Anda bisa melihat versi live dari portofolio ini di sini:
-**[https://tunggulalmajid.github.io/Portofolio-Native/](https://tunggulalmajid.my.id)**
+**[https://tunggulalmajid.my.id](https://tunggulalmajid.my.id)**
 
 ## ✨ Fitur-Fitur
 
